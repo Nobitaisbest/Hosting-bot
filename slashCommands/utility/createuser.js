@@ -3,7 +3,7 @@ const { ApplicationCommandType, EmbedBuilder, ApplicationCommandOptionType } = r
 let key = process.env.KEY
 module.exports = {
   name: 'createuser',
-  description: 'Creates a new user',
+  description: 'creates a new user',
   type: ApplicationCommandType.ChatInput,
    options: [
         {
@@ -20,7 +20,7 @@ module.exports = {
         },
         {
             name: 'password',
-            description: 'What should be the password?',
+            description: 'what should be the password?',
             type: ApplicationCommandOptionType.String,
            required: true
         }
